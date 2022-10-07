@@ -1,0 +1,27 @@
+interface Sample
+{
+	void test();
+}
+class Demo implements Sample
+{
+	public void test()
+	{
+		System.out.println("Test the method");
+	}
+}
+class Run
+{
+	public static Sample walk()
+	{
+		Sample s1=new Demo();
+	return s1;
+	}
+}
+class  Mainclass1
+{
+	public static void main(String[] args) 
+	{
+		Sample rv=Run.walk();
+		rv.test();
+	}
+}

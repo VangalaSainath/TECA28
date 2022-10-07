@@ -1,0 +1,13 @@
+class Ticketprice
+{
+	public String k="APSRTC";
+	public int a=250;
+	public static void main(String [] args)
+	{
+		System.out.println("Bus starts");
+		string k();
+		
+		new  Ticketprice().int a();
+		System.out.println("Bus stops");
+	}
+}

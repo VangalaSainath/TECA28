@@ -1,0 +1,30 @@
+class Sample13
+{
+	public void tsrtc()
+	{
+		System.out.println("Rajadhani is luxary bus in tsrtc");
+	}
+
+}
+interface Bus
+{
+	public void apsrtc();
+}
+class Road extends Sample13  implements Bus
+{
+	
+public void apsrtc()
+	{
+System.out.println("Indra is luxary bus in apssrtc");
+	}
+
+}
+class Mainclass8 
+{
+	public static void main(String[] args) 
+	{
+		Road r1=new Road();
+		r1.tsrtc();
+		r1.apsrtc();
+	}
+}

@@ -1,0 +1,46 @@
+interface  Laptop
+{
+	public void cost();
+}
+interface  Memory extends Laptop
+{
+	public void ramsize();
+}
+interface  Colour extends Laptop,Memory
+{
+
+	public void cost();
+	public void ramsize();
+    public void black();
+}
+class Showroom implements Colour
+{
+	public void cost()
+	{
+		System.out.println("The cost of the laptop is=40000");
+	}
+	public void ramsize()
+	{
+		System.out.println("The  size of ram is=12gb");
+	}
+	public void Colour()
+	{
+		System.out.println("The colour is = silver");
+	}
+}
+
+public static void main (String [] args )
+{
+
+class Mainclaas4 
+{
+	public static void main(String[] args) 
+	{
+	Showroom s1=new Showroom();
+	s1.cost();
+	s1.ramsize();
+	s1.black();
+
+		
+	}
+}

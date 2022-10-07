@@ -1,0 +1,29 @@
+class Jungle
+{
+	public String s="Name";
+	public void animal()
+	{
+		System.out.println("Animals are lived in jungle");
+
+
+	}
+}
+
+class Lion extends Jungle
+{
+	public int i=34;
+}
+
+class Mainclass2 
+{
+	public static void main(String[] args) 
+	{
+		Jungle j1=new Lion();
+		j1.animal();
+		System.out.println(j1.s);
+		Lion l1=(Lion) j1;
+		System.out.println(l1.i);
+		System.out.println(l1.s);
+		l1.animal();
+	}
+}

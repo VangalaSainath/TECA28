@@ -1,0 +1,21 @@
+class  Demo
+{
+	public static int a =3;
+		public static  double c=2.5;
+		public  String k="PUBG";
+		public  int x= 32;
+
+
+	public static void main(String [] args)
+	{
+		System.out.println("Main ends");
+		System.out.println(a);
+		System.out.println(c);
+		Demo d1=new Demo();
+		System.out.println(d1.k);
+		System.out.println(d1.x);
+		
+			System.out.println("Main ends");
+	}
+	}
+

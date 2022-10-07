@@ -1,0 +1,19 @@
+abstract class A
+{
+	abstract public void test();
+}
+class B extends A
+{
+public void test()
+{
+	System.out.println("Test the car");
+}
+}
+class car
+{
+	public static void main(String [] args)
+	{
+		B b1= new B();
+		b1.test();
+	}
+}

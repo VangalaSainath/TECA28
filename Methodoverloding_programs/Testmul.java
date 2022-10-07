@@ -1,0 +1,23 @@
+class Testmul 
+{
+public void mul(int a,int b)
+	{
+int c = a*b;
+System.out.println(c);
+	}
+	public void mul(double k,double j)
+	{
+		double i=k*j;
+		System.out.println(i);
+	}
+		public static void main(String [] args)
+	{
+			System.out.println("Main starts");
+			new Testmul().mul();
+			
+		
+			System.out.println(new Testmul.mul(10,2));
+			System.out.println(new Testmul.mul(2.5,2));
+			
+		}
+	}

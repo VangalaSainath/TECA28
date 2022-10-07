@@ -1,0 +1,22 @@
+class Television
+{
+	public static void price()
+	{
+		int a=2000;
+		System.out.println(a);
+	}
+	public static void brand()
+	{
+		String s="Samsung";
+	System.out.println(s);
+	}
+	public static void main(String [] args)
+	{
+	System.out.println("Discount starts");
+	new Television().price();
+	new Television().brand();
+	System.out.println("Discount ends");
+	}
+
+
+}

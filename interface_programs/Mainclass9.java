@@ -1,0 +1,32 @@
+interface Desktop
+{
+	public void screen();
+}
+interface Drive
+{
+	public void screen();
+}
+interface Folder extends Desktop,Drive
+{
+	public void screen();
+}
+class Document implements Folder
+{
+	public void screen()
+	{
+		System.out.println("Enter the input of program display on screen");
+
+	}
+	
+}
+
+
+class Mainclass9 
+{
+	public static void main(String[] args) 
+	{
+		new Document().screen();
+
+
+	}
+}

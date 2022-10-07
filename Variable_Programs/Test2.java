@@ -1,0 +1,20 @@
+class  Test2
+{
+	public  int i;
+	public  double d;
+	public  char c;
+	public  String s;
+	public  boolean b;
+	
+			public static void main (String [] args)
+	
+	{
+		System.out.println("Main starts");
+		System.out.println(new Test2().i);
+		System.out.println(new Test2().d);
+		System.out.println(new Test2().c);
+		System.out.println(new Test2().s);
+		System.out.println(new Test2().b);
+		System.out.println("Main ends");
+	}
+}

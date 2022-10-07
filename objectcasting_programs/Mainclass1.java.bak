@@ -1,0 +1,44 @@
+class Passport
+{
+	public void apply()
+	{
+		System.out.println("Fill the application form");
+	}
+}
+class Checking extends Passport
+{
+	public void address()
+	{
+		System.out.println("Mention the adress details");
+	}
+}
+class Visa extends Passport
+{
+	public void abroad()
+	{
+		System.out.println("Take off for abroad studies");
+	}
+}
+
+
+
+
+
+
+class Mainclass1 
+{
+	public static void main(String[] args) 
+	{
+		Passport p1=new Checking();
+		p1.apply();
+		Checking c1=(Checking) p1;
+		c1.apply();
+		c1.address();
+		Passport p2=new Visa();
+		p2.apply();
+		Visa v1=(Visa) p2;
+		v1.apply();
+		v1.abroad();
+
+	}
+}

@@ -1,0 +1,24 @@
+class Employee 
+{
+	public static void work()
+	{
+	System.out.println("work from 9am to 6 pm");
+	}
+	public void salary()
+	{
+		System.out.println("salary will be credited at end of month");
+	}
+}
+
+class Mainclass
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Main starts");
+		Employee.work();
+		Employee emp=new Employee();
+		emp.salary();
+		System.out.println("Main ends");
+	}
+}
